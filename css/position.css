@@ -20,3 +20,13 @@ div {
     top: 50px;
     left: 50px;5
 }
+
+#absolute {
+    position: relative;
+}
+
+#absolute #middle {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
