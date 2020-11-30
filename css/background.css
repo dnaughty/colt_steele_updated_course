@@ -1,3 +1,12 @@
-body {
-    background-color: red;
+section {
+    width: 80%;
+    height: 800px;
+    background-image:url("https://images.unsplash.com/photo-1567141958790-a30b4c1abe65?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80");
+    margin: 0 auto;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
 }
