@@ -170,6 +170,8 @@ body {
 
     .pricing-plan {
         border-bottom: none;
+        border-right: 1px solid black;
+        padding: 25px 50px
     }
 }
 
