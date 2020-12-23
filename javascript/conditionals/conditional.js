@@ -5,13 +5,14 @@
 //     console.log(random);
 // }
 
-const dayOfTheWeek = 'Boner'
+const dayOfTheWeek = prompt('Enter a Day')
 
 if (dayOfTheWeek == 'Monday') {
     console.log("I hate Monday")
 } else if (dayOfTheWeek == 'Saturday') {
     console.log("Yay!")
-} else {
-    console.log("Just another day")
-}
+} else if (dayOfTheWeek == "Friday") {
+    console.log("great")
+} 
+
 
