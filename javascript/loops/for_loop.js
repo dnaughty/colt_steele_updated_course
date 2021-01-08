@@ -255,6 +255,10 @@ let animals = [
 //     console.log(i, animals[i])
 // }
 
-for (let i = 223; i >= 0; i--) {
+// for (let i = 223; i >= 0; i--) {
+//     console.log(i,animals[i])
+// }
+
+for(let i = animals.length -1; i >= 0; i--) {
     console.log(i,animals[i])
 }
