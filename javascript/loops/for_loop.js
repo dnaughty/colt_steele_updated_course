@@ -251,6 +251,10 @@ let animals = [
     "Zebra"
 ]
 
-for (let i = 0; i < animals.length; i++) {
-    console.log(i, animals[i])
+// for (let i = 0; i < animals.length; i++) {
+//     console.log(i, animals[i])
+// }
+
+for (let i = 223; i >= 0; i--) {
+    console.log(i,animals[i])
 }
