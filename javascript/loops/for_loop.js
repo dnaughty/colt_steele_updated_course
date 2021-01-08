@@ -7,7 +7,11 @@
 
 // Print out "Da ba dee da ba daa" 6 times, using a for loop
 
-for(let i = 1; i<=6; i++){
-    console.log("Da ba dee da ba daa")
+// for(let i = 1; i<=6; i++){
+//     console.log("Da ba dee da ba daa")
     
+// }
+
+for (let i = 0; i <= 20; i += 2) {
+    console.log(i)
 }
