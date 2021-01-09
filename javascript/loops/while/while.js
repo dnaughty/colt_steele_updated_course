@@ -4,12 +4,23 @@
 //     console.log(count)
 // }
 
-const SECRET = "BabyHippo"
+// const SECRET = "BabyHippo"
 
-let guess = prompt("Enter the code:")
+// let guess = prompt("Enter the code:")
 
-while (guess !== SECRET) {
-    guess = prompt("Enter the code:")
+// while (guess !== SECRET) {
+//     guess = prompt("Enter the code:")
+// }
+
+// console.log("enter")
+
+let input = prompt("Hey, say something")
+
+while (true) {
+    input = prompt(input);
+    if (input === "stop") {
+        break;
+    }
 }
 
-console.log("enter")
+console.log("you win")
