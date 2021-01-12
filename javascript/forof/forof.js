@@ -16,6 +16,7 @@
 //     }
 // }
 
-for (let char of "Hello world") {
-    console.log(char)
-}
+// for (let char of "Hello world") {
+//     console.log(char)
+// }
+
