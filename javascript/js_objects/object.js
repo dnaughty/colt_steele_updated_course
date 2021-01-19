@@ -11,6 +11,10 @@ const testScores = {
     vonnie: 60
 }
 
+// for (let person in testScores) {
+//     console.log(person);
+// }
+
 for (let person in testScores) {
-    console.log(person);
+    console.log(`${person} scored ${testScores[person]}`);
 }
