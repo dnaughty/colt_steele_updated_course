@@ -10,3 +10,7 @@ const testScores = {
     diedre: 81,
     vonnie: 60
 }
+
+for (let person in testScores) {
+    console.log(person);
+}
