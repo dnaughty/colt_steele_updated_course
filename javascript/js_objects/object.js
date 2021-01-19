@@ -15,6 +15,8 @@ const testScores = {
 //     console.log(person);
 // }
 
-for (let person in testScores) {
-    console.log(`${person} scored ${testScores[person]}`);
-}
+// for (let person in testScores) {
+//     console.log(`${person} scored ${testScores[person]}`);
+// }
+
+console.log(Object.keys(testScores))
