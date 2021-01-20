@@ -21,4 +21,10 @@ const testScores = {
 
 // console.log(Object.keys(testScores))
 
-for(let score of Object.values(testScores))
+
+let total = 0
+for(let score of Object.values(testScores)) {
+    total += score;
+}
+
+console.log(`the total is ${total}`)
