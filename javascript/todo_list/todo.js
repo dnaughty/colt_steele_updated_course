@@ -1,15 +1,8 @@
-
-const list = []
-
-let item = prompt("Add an item")
+let input = prompt("what would you like to do?")
 
 
-if(item === "end") {
-    break;
-} else {
-    let item = prompt("Add an item");
-    list.push(item)
+while (input !== 'quit' && input !== 'q') {
+    input = prompt("what would you like to do?")
 }
 
-
-console.log(list)
+console.log("OK Quit")
