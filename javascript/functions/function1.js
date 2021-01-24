@@ -8,8 +8,16 @@
 
 // sing()
 
-function greet(firstName, lastName) {
-    console.log(`Hey there, ${firstName} ${lastName[0]}!`)
+// function greet(firstName, lastName) {
+//     console.log(`Hey there, ${firstName} ${lastName[0]}!`)
+// }
+
+// greet("Denis", "Naughton")
+
+function repeat(str, numtimes) {
+    for(let i = 0; i < numtimes; i++){
+        console.log(str, 5)
+    }
 }
 
-greet("Denis", "Naughton")
+repeat("hi",5)
