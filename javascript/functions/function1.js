@@ -15,9 +15,13 @@
 // greet("Denis", "Naughton")
 
 function repeat(str, numtimes) {
+    let result = '';
     for(let i = 0; i < numtimes; i++){
-        console.log(str, 5)
+        result += str;
+        
     }
+
+    console.log(result)
 }
 
 repeat("hi",5)
