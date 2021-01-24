@@ -14,14 +14,26 @@
 
 // greet("Denis", "Naughton")
 
-function repeat(str, numtimes) {
-    let result = '';
-    for(let i = 0; i < numtimes; i++){
-        result += str;
+// function repeat(str, numtimes) {
+//     let result = '';
+//     for(let i = 0; i < numtimes; i++){
+//         result += str;
         
+//     }
+
+//     console.log(result)
+// }
+
+// repeat("hi",5)
+
+function add(x,y) {
+    if(typeof x !== 'number' || typeof y !== 'number') {
+        return false;
     }
 
-    console.log(result)
+    let sum = x + y;
+    return sum
 }
 
-repeat("hi",5)
+add(4,5)
+add("denis",3)
