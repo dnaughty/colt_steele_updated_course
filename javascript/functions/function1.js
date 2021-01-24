@@ -1,9 +1,15 @@
-function sing(){
+// function sing(){
 
-    console.log("Doe");
-    console.log("Re");
-    console.log("Mi");
+//     console.log("Doe");
+//     console.log("Re");
+//     console.log("Mi");
 
+// }
+
+// sing()
+
+function greet(firstName, lastName) {
+    console.log(`Hey there, ${firstName} ${lastName[0]}!`)
 }
 
-sing()
+greet("Denis", "Naughton")
