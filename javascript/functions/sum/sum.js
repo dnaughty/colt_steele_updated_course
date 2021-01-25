@@ -1,11 +1,18 @@
 function sumArray(arr) {
     
+  total = 0
+  idx = 0
+  while(idx < arr.length) {
+    total += arr[idx]
+    idx += 1
+  }
 
-  const mult = (a,b) => a * b
+  return total
 
-  const sum = arr.reduce(mult)
+
+  
 }
 
 
 
-sumArray([1,2,3])
+// sumArray([1,2,3])
