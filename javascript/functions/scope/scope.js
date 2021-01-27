@@ -55,9 +55,18 @@
 //     return num >= 50 && num <= 100
 // }
 
-function isBetween2(num) {
-    return num >= 1 && num <= 10
+// function isBetween2(num) {
+//     return num >= 1 && num <= 10
+// }
 
+const myMath = {
+    PI: 314159,
+    square: function(num) {
+        return num * num;
+    },
+    cube: function(num) {
+        return num ** 3;
+    }
 }
 
 
