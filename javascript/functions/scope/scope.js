@@ -42,11 +42,22 @@
 //     }
 // }
 
-function isBetween(min,max,num) {
-    if(num >= min && num <= max){
-        console.log(`The ${num} is between ${min} and ${max}`)
-    }else{
-        console.log("not between")
-    }
+// function isBetween(min,max,num) {
+//     if(num >= min && num <= max){
+//         console.log(`The ${num} is between ${min} and ${max}`)
+//     }else{
+//         console.log("not between")
+//     }
+
+// }
+
+// function isBetween(num) {
+//     return num >= 50 && num <= 100
+// }
+
+function isBetween2(num) {
+    return num >= 1 && num <= 10
 
 }
+
+
