@@ -26,18 +26,27 @@
 //     }
 // }
 
-function makeMysteryFunc(num) {
-    // const rand = Math.random();
-    if(num > 10){
-        return function() {
-            console.log("Congrats, I'm a good function!")
-        }
-    } else {
-        return function() {
-            alert("Virus!")
-            alert("Don't close")
-            alert("Don't close")
-            alert("Don't close")
-        }
+// function makeMysteryFunc(num) {
+//     // const rand = Math.random();
+//     if(num > 10){
+//         return function() {
+//             console.log("Congrats, I'm a good function!")
+//         }
+//     } else {
+//         return function() {
+//             alert("Virus!")
+//             alert("Don't close")
+//             alert("Don't close")
+//             alert("Don't close")
+//         }
+//     }
+// }
+
+function isBetween(min,max,num) {
+    if(num >= min && num <= max){
+        console.log(`The ${num} is between ${min} and ${max}`)
+    }else{
+        console.log("not between")
     }
+
 }
