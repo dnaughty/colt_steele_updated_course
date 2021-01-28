@@ -7,3 +7,12 @@ const myMath = {
         return num ** 3;
     }
 }
+
+const cat = {
+    name: 'Blue Steel',
+    color: 'grey',
+    breed: 'Scottish fold',
+    meow() {
+        console.log("meow meow meow")
+    }
+}
