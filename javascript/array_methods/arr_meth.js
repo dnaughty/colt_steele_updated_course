@@ -40,6 +40,18 @@ const movies = [
   },
 
 ]
-  movies.forEach(function (movie) {
-    console.log(`${movie.title} - ${movie.score}/100`)
-  })
+//   movies.forEach(function (movie) {
+//     console.log(`${movie.title} - ${movie.score}/100`)
+//   })
+
+// numbers.map(function(num){
+//     console.log(num * 2);
+// })
+
+const titles = movies.map (function(movie){
+    return movie.title;
+})
+
+const ratings = movies.map(function(rate){
+    return rate.score
+})
