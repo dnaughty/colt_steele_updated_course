@@ -20,3 +20,9 @@ const movies = [
     {
         title: 'Alien',
         score: 90
+    }
+]
+
+const titles = movies.map(function(movie){
+    return movie.title.toUpperCase();
+})
