@@ -44,8 +44,11 @@ const square = (x) => {
 //      Math.floor(Math.random() * 6 ) + 1
 // )
 
-const add = (x,y) => x + y
+// const add = (x,y) => x + y
 
+const newMovies = movies.map(function(movie){
+    return `${movie.title} - ${movie.score / 10}`
+})
 
 
 
