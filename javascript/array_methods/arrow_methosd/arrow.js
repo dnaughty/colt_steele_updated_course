@@ -46,9 +46,13 @@ const square = (x) => {
 
 // const add = (x,y) => x + y
 
-const newMovies = movies.map(function(movie){
-    return `${movie.title} - ${movie.score / 10}`
-})
+// const newMovies = movies.map(function(movie){
+//     return `${movie.title} - ${movie.score / 10}`
+// })
+
+const newMovies = movies.map(movie => (
+    `${movie.title} - ${movie.score / 10}`
+))
 
 
 
