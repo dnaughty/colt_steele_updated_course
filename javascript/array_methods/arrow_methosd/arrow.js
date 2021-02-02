@@ -31,3 +31,7 @@ const titles = movies.map(function(movie){
 const add = (x,y) => {
     return x + y
 }
+
+const square = (x) => {
+    return x * x;
+}
