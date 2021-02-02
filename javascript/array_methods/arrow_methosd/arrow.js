@@ -26,3 +26,8 @@ const movies = [
 const titles = movies.map(function(movie){
     return movie.title.toUpperCase();
 })
+
+
+const add = (x,y) => {
+    return x + y
+}
