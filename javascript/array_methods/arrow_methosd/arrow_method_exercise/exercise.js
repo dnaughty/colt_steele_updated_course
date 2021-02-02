@@ -1,1 +1,3 @@
-console.log("Boner")
+const greet = (string) => {
+    return `Hey ${string}!` 
+}
