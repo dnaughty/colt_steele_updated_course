@@ -56,6 +56,16 @@ const movies = [
 //     return rate.score
 // })
 
-numbers.filter(n => {
-  return n === 4
+// numbers.filter(n => {
+//   return n === 4
+// })
+
+// fil = numbers.filter(n => {
+//   return n < 10
+// })
+
+const goodMovies = movies.filter (movie => {
+  return movie.score > 91
 })
+
+const goodTitles = goodMovies.map(m => m.title)
