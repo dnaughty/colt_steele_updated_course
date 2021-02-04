@@ -48,10 +48,14 @@ const movies = [
 //     console.log(num * 2);
 // })
 
-const titles = movies.map (function(movie){
-    return movie.title;
-})
+// const titles = movies.map (function(movie){
+//     return movie.title;
+// })
 
-const ratings = movies.map(function(rate){
-    return rate.score
+// const ratings = movies.map(function(rate){
+//     return rate.score
+// })
+
+numbers.filter(n => {
+  return n === 4
 })
