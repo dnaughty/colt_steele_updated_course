@@ -1,7 +1,12 @@
-console.log("HI!")
+// console.log("HI!")
 
-setTimeout(() => {
-    console.log("Hello!!!")
-}, 3000)
+// setTimeout(() => {
+//     console.log("Hello!!!")
+// }, 3000)
 
-console.log("g'bye")
+// console.log("g'bye")
+
+const id = setInterval(() => {
+    console.log(Math.random())
+}, 2000)
+    
