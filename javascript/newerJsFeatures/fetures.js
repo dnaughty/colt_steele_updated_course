@@ -3,7 +3,9 @@
 // }
 
 
-const people = ["Denis", "Naomi", "Tim", "Mike"]
-const others = ["Veronica", "Steph"]
+// const people = ["Denis", "Naomi", "Tim", "Mike"]
+// const others = ["Veronica", "Steph"]
 
-console.log([...people, ...others])
+// console.log([...people, ...others])
+
+console.log(..."Denis")
