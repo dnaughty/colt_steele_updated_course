@@ -8,4 +8,7 @@
 
 // console.log([...people, ...others])
 
-console.log(..."Denis")
+// console.log(..."Denis")
+
+const nums = [1,2,30,11]
+console.log(Math.max(... nums))
