@@ -54,7 +54,7 @@ const square = (x) => {
 //     `${movie.title} - ${movie.score / 10}`
 // ))
 
-const newMovies = movies.map(movie => `${movie.title} - ${movie.score / 10}` )
+// const newMovies = movies.map(movie => `${movie.title} - ${movie.score / 10}` )
 
 
 
