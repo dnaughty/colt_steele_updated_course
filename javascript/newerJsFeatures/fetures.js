@@ -10,5 +10,6 @@
 
 // console.log(..."Denis")
 
-const nums = [1,2,30,11]
-console.log(Math.max(... nums))
+// const nums = [1,2,30,11]
+// console.log(Math.max(... nums))
+
